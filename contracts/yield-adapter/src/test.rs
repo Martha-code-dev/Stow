@@ -55,7 +55,6 @@ fn mint(env: &Env, token: &Address, _token_admin: &Address, recipient: &Address,
 // ---------------------------------------------------------------------------
 
 #[test]
-#[ignore = "TODO(issue): implement admin::initialize"]
 fn initialize_sets_admin_treasury_and_token() {
     let env = Env::default();
     env.mock_all_auths();
